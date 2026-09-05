@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Lidya Cantika Ulin Wibowo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/output.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1c6364f841.js" crossorigin="anonymous"></script>
+    <!-- AOS Style -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="font-outfit overflow-x-hidden">
+    <!-- Header -->
+    <header class="fixed flex m-auto w-full left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-10 duration-300">
+        <a href="#home">
+            <h2 class="font-medium text-main text-2xl laptop:text-3xl">Ldycntka.</h2>
+        </a>
+        <div
+            class="navbar invisible opacity-0 p-5 m-auto w-full laptop:w-4/5 bg-white/80 flex flex-col items-start gap-10 absolute left-0 top-[64px] right-0 rounded-b-2xl duration-300 laptop:flex-row laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pl-48 laptop:-mr-[1px]">
+            <nav>
+                <ul class="flex flex-col gap-4 laptop:flex-row">
+                    <li><a class="links" href="#home">Home</a></li>
+                    <li><a class="links" href="#about">About</a></li>
+                    <li><a class="links" href="#service">Services</a></li>
+                    <li><a class="links" href="#skill">Skills</a></li>
+                    <li><a class="links" href="#project">Projects</a></li>
+                    <li><a class="links" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="btn flex justify-between w-full gap-4 laptop:w-52">
+                <a href="https://wa.me/6283844224384" class="py-2 laptop:duration-100 rounded-md text-main hover:underline cursor-pointer laptop:text-lg">+62-838-4422-4384</a>
+            </nav>
+        </div>
+        <div class="menu-toggle relative flex items-center h-[30px] w-[30px] laptop:hidden">
+            <button id="hamburger" class="absolute flex flex-col items-end gap-2">
+                <span
+                    class="bg-main h-[3px] w-[35px] block transition ease-in-out duration-300 origin-top-right"></span>
+                <span class="bg-main h-[3px] w-[25px] block transition ease-in-out duration-300"></span>
+                <span
+                    class="bg-main h-[3px] w-[15px] block transition ease-in-out duration-300 origin-bottom-right"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="pt-28 laptop:pt-32 px-5 flex laptop:justify-between tablet:px-10 flex-col gap-5 tablet:flex-row-reverse laptop:grid laptop:grid-cols-2 laptop:px-40">
+        <div class="content-home flex gap-4 laptop:gap-6 order-2 laptop:order-1 items-center" data-aos="fade-right" data-aos-duration="1000">
+            <div class="sosmed flex flex-col gap-1 laptop:gap-3">
+                <a class="sosmed-links" href="https://linkedin.com/in/ldycntkauw"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="sosmed-links" href="https://github.com/ldycntka"><i class="fa-brands fa-github"></i></a>
+                <a class="sosmed-links" href="https://instagram.com/ldycntka"><i class="fa-brands fa-instagram"></i></a>
+                <a class="sosmed-links" href="https://www.tiktok.com/@ldycntka?_r=1&_t=ZS-97YBGtl6qiz"><i class="fa-brands fa-tiktok"></i></a>
+                <a class="sosmed-links" href="https://youtube.com/@lidyacantika2017?si=FqCUK3_8-RqoE_Fs"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="content flex flex-col gap-2 laptop:gap-4">
+                <span class="text-main laptop:text-xl">Hello</span>
+                <h2 class="text-dark font-bold text-3xl laptop:text-5xl">Im Lidya &#x1F604;</h2>
+                <p class="text-text laptop:text-4xl">A Passionate Creative Digital Enthusiast &#x1F31F;</p>
+                <a class="btn-link bg-main text-white hover:bg-main/60" href="#contact">Hire Me!</a>
+            </div>
+        </div>
+        <div class="img-home order-1 flex items-center justify-center laptop:order-2" data-aos="fade-in" data-aos-duration="1000">
+            <img class="shadow-2xl rounded-full laptop:w-4/5" src="./Assets/Lidya_pasfotoMerah.jpeg" alt="Profile">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="pt-20 px-5 grid tablet:px-10 grid-cols-1 gap-5 tablet:grid-cols-2 laptop:px-40 laptop:items-center laptop:gap-10">
+        <div class="about-img flex items-center justify-center" data-aos="fade-in" data-aos-duration="1000">
+            <img class="rounded-lg" src="./Assets/lidya.jpeg" alt="About">
+        </div>
+       <div class="about-content flex flex-col gap-2 laptop:gap-4" data-aos="fade-right" data-aos-duration="1000">
+            <h2 class="text-dark text-2xl font-bold laptop:text-4xl">About Me &#x1F3C6;</h2>
+            <span class="text-dark laptop:text-xl">Introduce | Experience</span>
+    
+             <p class="text-text laptop:text-2xl">
+                  Hi, I'm Lidya Cantika Ulin Wibowo, a Creative Digital Enthusiast based in Indonesia with 2 years of experience in the creative industry. Passionate about visual storytelling, I specialize in content creation, graphic design, photography, and videography, crafting impactful digital experiences that inspire and engage audiences.
+            </p>
+
+          <a class="btn-link bg-main text-white hover:bg-main/60" href="./Assets/CV/CV_Lidya Cantika Ulin Wibowo.pdf" download>Download CV</a>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service" class="pt-20 px-5 flex tablet:px-10 flex-col gap-5 laptop:gap-8 laptop:px-40">
+        <div class="service-title flex flex-col gap-1 laptop:gap-3" data-aos="fade-in" data-aos-duration="1000">
+            <span class="h-full w-[2px] bg-main"></span>
+            <h2 class="text-dark text-2xl font-bold laptop:text-4xl">Specializing In &#x1F4AA;</h2>
+            <p class="text-text laptop:text-xl">I help brands grow through creative content, compelling visuals, and impactful digital storytelling across various digital platforms.</p>
+        </div>
+        <div class="service-card px-5 grid grid-cols-1 gap-10 laptop:grid-cols-3">
+            <div class="card group relative rounded-md pt-8 px-5 pb-12 flex flex-col gap-3 justify-center shadow-xl overflow-hidden hover:bg-main duration-300 transition-all" data-aos="fade-right" data-aos-duration="1000">
+                <div class="bola-top top-0 left-2 absolute grid grid-cols-3 gap-1">
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                </div>
+                <span class="h-full w-1 bg-red-500 absolute left-0 bottom-0 rounded-tl-full rounded-bl-full group-hover:bg-dark"></span>
+                <h3 class="z-10 text-2xl laptop:text-3xl font-semibold text-dark duration-300 group-hover:text-white">Content Creator</h3>
+                <p class="z-10 text-text duration-300 group-hover:text-white">Creating engaging social media content, short-form videos, creative campaigns, and visual storytelling that connect brands with their audience.</p>
+                <a class="z-10 text-main duration-300 group-hover:text-white w-max" href="">Read More</a>
+                <div class="bola-bot bottom-4 right-4 absolute grid grid-cols-4 gap-1">
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                </div>
+            </div>
+
+            <div class="card group relative rounded-md pt-8 px-5 pb-12 flex flex-col gap-3 justify-center shadow-xl overflow-hidden hover:bg-main duration-300 transition-all" data-aos="fade-right" data-aos-duration="1000">
+                <div class="bola-top top-0 left-2 absolute grid grid-cols-3 gap-1">
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                </div>
+                <span class="h-full w-1 bg-emerald-500 absolute left-0 bottom-0 rounded-tl-full rounded-bl-full group-hover:bg-dark"></span>
+                <h3 class="z-10 text-2xl laptop:text-3xl font-semibold text-dark duration-300 group-hover:text-white">Photographer & Videographer</h3>
+                <p class="z-10 text-text duration-300 group-hover:text-white">Producing high-quality photography and cinematic videos for graduation, engagement, prewed, event, tour doc, and traditional clothing photos content with attention to creativity and detail.</p>
+                <a class="z-10 text-main duration-300 group-hover:text-white w-max" href="">Read More</a>
+                <div class="bola-bot bottom-4 right-4 absolute grid grid-cols-4 gap-1">
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                </div>
+            </div>
+
+            <div class="card group relative rounded-md pt-8 px-5 pb-12 flex flex-col gap-3 justify-center shadow-xl overflow-hidden hover:bg-main duration-300 transition-all" data-aos="fade-right" data-aos-duration="1000">
+                <div class="bola-top top-0 left-2 absolute grid grid-cols-3 gap-1">
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                </div>
+                <span class="h-full w-1 bg-yellow-500 absolute left-0 bottom-0 rounded-tl-full rounded-bl-full group-hover:bg-dark"></span>
+                <h3 class="z-10 text-2xl laptop:text-3xl font-semibold text-dark duration-300 group-hover:text-white">Web Developer</h3>
+                <p class="z-10 text-text duration-300 group-hover:text-white"> Building modern, responsive, and user-friendly web interfaces using HTML, CSS, and JavaScript to deliver seamless and engaging digital experiences.</p>
+                <a class="z-10 text-main duration-300 group-hover:text-white w-max" href="">Read More</a>
+                <div class="bola-bot bottom-4 right-4 absolute grid grid-cols-4 gap-1">
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                    <span class="w-[6px] h-[6px] bg-white rounded-full"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skill" class="pt-20 px-5 grid grid-cols-1 gap-5 tablet:grid-cols-2 laptop:px-40">
+        <div class="skill-box grid grid-cols-3 gap-5 laptop:gap-8">
+
+    <!-- CapCut -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/capcut-svgrepo-com.svg" alt="CapCut White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/capcut-svgrepo-com.svg" alt="CapCut">
+        </div>
+        <span class="text-text text-lg">CapCut</span>
+    </div>
+
+    <!-- Canva -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/canva-svgrepo-com.svg" alt="Canva White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/canva-svgrepo-com.svg" alt="Canva">
+        </div>
+        <span class="text-text text-lg">Canva</span>
+    </div>
+
+    <!-- Photoshop -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/adobe-photoshop-svgrepo-com.svg" alt="Photoshop White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/adobe-photoshop-svgrepo-com.svg" alt="Photoshop">
+        </div>
+        <span class="text-text text-lg">Adobe Photoshop</span>
+    </div>
+
+    <!-- Lightroom -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/adobe-lightroom-svgrepo-com.svg" alt="Lightroom White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/adobe-lightroom-svgrepo-com.svg" alt="Lightroom">
+        </div>
+        <span class="text-text text-lg">Adobe Lightroom</span>
+    </div>
+
+    <!-- TikTok -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/tiktok-svgrepo-com.svg" alt="TikTok White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/tiktok-svgrepo-com.svg" alt="TikTok">
+        </div>
+        <span class="text-text text-lg">TikTok</span>
+    </div>
+
+    <!-- Meta -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/meta-svgrepo-com.svg" alt="Meta White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/meta-svgrepo-com.svg" alt="Meta">
+        </div>
+        <span class="text-text text-lg">Meta Business Suite</span>
+    </div>
+
+    <!-- Microsoft Office -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svgmicrosoft-office-svgrepo-com.svg" alt="Office White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/microsoft-office-svgrepo-com.svg" alt="Office">
+        </div>
+        <span class="text-text text-lg">Microsoft Office</span>
+    </div>
+
+    <!-- HTML / CSS / JS -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/JS-icon-white.svg" alt="JS White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/JS-icon-dark.svg" alt="JS">
+        </div>
+        <span class="text-text text-lg">HTML / CSS / JS</span>
+    </div>
+
+    <!-- Open AI -->
+    <div class="skill flex flex-col gap-2 laptop:gap-3 items-center" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="laptop:scale-105 icon relative group rounded-full w-16 h-16 flex items-center justify-center bg-accent hover:bg-dark duration-300 cursor-pointer">
+            <img class="w-10 absolute hidden group-hover:block" src="./Assets/svg/openai-svgrepo-com.svg" alt="JS White">
+            <img class="w-10 group-hover:hidden" src="./Assets/svg/openai-svgrepo-com.svg" alt="JS">
+        </div>
+        <span class="text-text text-lg">Open AI</span>
+    </div>
+
+</div>
+       <div class="experience flex flex-col gap-5">
+
+    <h2 class="text-dark font-bold text-2xl" data-aos="fade-in" data-aos-duration="1000">
+        Experiences
+    </h2>
+
+    <!-- twins.frames -->
+    <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+    <div class="experience-box flex flex-col gap-2" data-aos="fade-right" data-aos-duration="1000">
+        <p class="text-text laptop:text-xl">2024 - Present</p>
+        <div class="exp flex flex-col gap-1">
+            <h3 class="text-dark font-semibold text-xl laptop:text-2xl">twins.frames</h3>
+            <p class="text-text laptop:text-xl">Founder • Content Creator</p>
+        </div>
+    </div>
+
+    <!-- Karang Taruna -->
+    <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+    <div class="experience-box flex flex-col gap-2" data-aos="fade-right" data-aos-duration="1000">
+        <p class="text-text laptop:text-xl">Jul 2023 - Present</p>
+        <div class="exp flex flex-col gap-1">
+            <h3 class="text-dark font-semibold text-xl laptop:text-2xl">"MUDISA" Karang Taruna Desa Sebapang</h3>
+            <p class="text-text laptop:text-xl">Public Relations & Documentation</p>
+        </div>
+    </div>
+
+    <!-- PT Pelatih Indonesia -->
+    <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+    <div class="experience-box flex flex-col gap-2" data-aos="fade-right" data-aos-duration="1000">
+        <p class="text-text laptop:text-xl">Dec 2025 - Jun 2026</p>
+        <div class="exp flex flex-col gap-1">
+            <h3 class="text-dark font-semibold text-xl laptop:text-2xl">PT Pelatih Indonesia Berlimpah</h3>
+            <p class="text-text laptop:text-xl">Content Creator</p>
+        </div>
+    </div>
+
+    <!-- HIMASIA -->
+    <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+    <div class="experience-box flex flex-col gap-2" data-aos="fade-right" data-aos-duration="1000">
+        <p class="text-text laptop:text-xl">2022 - 2025</p>
+        <div class="exp flex flex-col gap-1">
+            <h3 class="text-dark font-semibold text-xl laptop:text-2xl">HIMASIA UTDI</h3>
+            <p class="text-text laptop:text-xl">Student Organization</p>
+        </div>
+    </div>
+
+    <!-- Orbit Ventura -->
+    <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+    <div class="experience-box flex flex-col gap-2" data-aos="fade-right" data-aos-duration="1000">
+        <p class="text-text laptop:text-xl">Sep 2024 - Dec 2024</p>
+        <div class="exp flex flex-col gap-1">
+            <h3 class="text-dark font-semibold text-xl laptop:text-2xl">PT Orbit Ventura Indonesia</h3>
+            <p class="text-text laptop:text-xl">MSIB Batch 7</p>
+        </div>
+    </div>
+
+    <!-- Podcast -->
+    <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+    <div class="experience-box flex flex-col gap-2" data-aos="fade-right" data-aos-duration="1000">
+        <p class="text-text laptop:text-xl">Jul 2024 - Sep 2024</p>
+        <div class="exp flex flex-col gap-1">
+            <h3 class="text-dark font-semibold text-xl laptop:text-2xl">Dengerin Sebentar Media</h3>
+            <p class="text-text laptop:text-xl">As a graphic designer Media Partner In Yogyakarta</p>
+        </div>
+    </div>
+            <span class="w-full h-2 bg-main rounded-lg" data-aos="zoom-in" data-aos-duration="1000"></span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project" class="py-20 grid grid-cols-1 gap-5 laptop:gap-10">
+        <div class="tittle-project bg-main py-5 px-5 flex tablet:px-10 flex-col gap-5 laptop:px-40 laptop:flex-row laptop:py-10" data-aos="fade-in" data-aos-duration="1000">
+            <div class="title flex flex-col gap-2">
+     <h2 class="text-white text-2xl font-bold laptop:text-3xl">Featured Projects &#x1F4BC;</h2>
+    <p class="text-white laptop:text-xl">
+        A selection of my creative projects in content creation, graphic design, photography, videography, and digital branding that showcase my skills and passion for visual storytelling.
+    </p>
+</div>
+<div class="title-btn flex items-center justify-center">
+    <a class="btn-link bg-white text-dark hover:bg-white/60" href="https://instagram.com/ldycntka">View Portfolio</a>
+</div>
+        </div>
+        <div class="project-container grid grid-cols-1 gap-10 px-5 laptop:px-40">
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="rounded-[20px]" src="./Assets/ldycntka-IgTikTok.png" alt="project-1" data-aos="fade-in" data-aos-duration="1000">
+                <div class="flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">Content Creator</h3>
+                    <p class="text-text laptop:text-xl text-center">"@ldycntka" – Creating engaging social media content, short-form videos, creative campaigns, and visual storytelling that connect brands with their audience.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://www.instagram.com/ldycntka?igsh=cmNnNTkyOWJyd281">Instagram <i class="text-dark fa-brands fa-instagram"></i></a>
+                        <a class="links" href=" https://www.tiktok.com/@ldycntka?_r=1&_t=ZS-98hehK8ImPM">Tiktok <i class="text-dark fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="tablet:col-start-2 rounded-[20px]" src="./Assets/TF-lidya.png" alt="project-2" data-aos="fade-in" data-aos-duration="1000">
+                <div class="tablet:row-start-1 flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">Photographer&Videographer</h3>
+                    <p class="text-text laptop:text-xl text-center">"Twins Frames" – Producing high-quality photography and cinematic videos for graduation, engagement, prewed, event, tour doc, and traditional clothing photos content with attention to creativity and detail.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://www.instagram.com/twins.frames?igsi=MXdscXlzbnQwM2hmaA==">Main IG <i class="text-dark fa-brands fa-instagram"></i></a>
+                        <a class="links" href="https://www.instagram.com/twinsframes.graduation?igsi=aGd2cnJjNzMxNWUy">Graduation <i class="text-dark fa-brands fa-instagram"></i></a>
+                        <a class="links" href="https://www.tiktok.com/@twins.frames?_r=1&_t=ZS-99Ttw3cAPjQ">TikTok <i class="text-dark fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="rounded-[20px]" src="./Assets/mudisa-SS.png" alt="project-3" data-aos="fade-in" data-aos-duration="1000">
+                <div class="flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">Social Media Specialist</h3>
+                    <p class="text-text laptop:text-xl text-center">"Mudisa Sebapang" – The Karang Taruna social media team consisting of a specialist, graphic designer, photographer, and editor collaborates as a creative unit to build and promote the village's digital presence.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://www.instagram.com/mudisa.sebapang?igsi=N2dqMGRmZ3h1OWxt">Instagram <i class="text-dark fa-brands fa-instagram"></i></a>
+                        <a class="links" href="https://www.tiktok.com/@mudisa.sebapang?_r=1&_t=ZS-99TwFiVCYFO">TikTok <i class="text-dark fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="tablet:cols-start-2 rounded-[20px]" src="./Assets/Maganghub-ptpi.png" alt="project-4" data-aos="fade-in" data-aos-duration="1000">
+                <div class="tablet:row-start-1  flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">Maganghub Kemnaker Batch 3 2025</h3>
+                    <p class="text-text laptop:text-xl text-center">"PT Pelatih Indonesia Berlimpah" – During my internship at PT Pelatih Indonesia through Maganghub Kemnaker Batch 3 (2025), I served as part of the digital creative team where I produced Instagram Reels for Jogja Halal Fest #3 (JHF#3), alongside various feed posts and promotional reels for Nethub Global, a virtual office provider.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://www.instagram.com/jogjahalalfest.official?igsi=enR0ZmNkbGtzZmRk">Jogja Halal Fest <i class="text-dark fa-brands fa-instagram"></i></a>
+                        <a class="links" href="https://www.instagram.com/nethubglobal?igsi=OWRmemk5ZGVsNjV2">Nethub Global <i class="text-dark fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="rounded-[20px]" src="./Assets/MSIB.png" alt="project-4" data-aos="fade-in" data-aos-duration="1000">
+                <div class="flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">MSIB Kemdikbud Batch 7</h3>
+                    <p class="text-text laptop:text-xl text-center">"PT Orbit Ventura Indonesia" – Complete MSIB Batch 7 (Orbit Ventura Indonesia) included completing the BIMA final project on student information systems for Institut Teknologi dan Bisnis Asia Malang and mastering AI/ML concepts like Decision Tree and K-NN algorithms.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://youtu.be/Qula9yfdHLM?si=NIWB6TTAD7RePOCC">Demo <i class="text-dark fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="tablet:col-start-2 rounded-[20px]" src="./Assets/GD-DSP.png" alt="project-5" data-aos="fade-in" data-aos-duration="1000">
+                <div class="tablet:row-start-1 flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">Graphic Designer</h3>
+                    <p class="text-text laptop:text-xl text-center">"Dengerin Sebentar Media" – During my tenure as a Graphic Designer for Dengerin Sebentar Media (DSP) a prominent local media partner in DIY, I specialized in creating visual assets for live music productions and concerts, as well as engaging podcast content.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://www.instagram.com/dengerinsebentarpodcast?igsi=emRtb3p5eTUweHIy">Instagram <i class="text-dark fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project grid grid-cols-1 gap-2 laptop:gap-10 tablet:grid-cols-2">
+                <img class="rounded-[20px]" src="./Assets/filmmaker-SMK.png" alt="project-6" data-aos="fade-in" data-aos-duration="1000">
+                <div class="flex flex-col gap-2 justify-center px-10 laptop:px-20" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="text-dark font-semibold text-xl text-center">Film Maker</h3>
+                    <p class="text-text laptop:text-xl text-center">"Multone Films" – As a Filmmaker at Multone Films a film crew formed with my vocational high school peers. I focus on creating original works and participating in several short film competitions.</p>
+                    <div class="btn flex gap-5 justify-center">
+                        <a class="links" href="https://www.instagram.com/multonefilms?igsi=dHZzNDR0ZjF3ZGMx">Instagram <i class="text-dark fa-brands fa-instagram"></i></a>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preview -->
+    <!-- Under Construction &#x1F4C8; -->
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-5 flex tablet:px-10 flex-col items-center justify-center gap-5 border-t border-b border-dark laptop:px-40" data-aos="fade-in" data-aos-duration="1000">
+        <span class="text-main font-semibold">Get In Touch</span>
+            <h2 class="text-dark font-bold text-2xl text-center laptop:text-3xl">
+             Let's Create Something Amazing
+             </h2>
+           <p class="text-text laptop:text-xl text-center">
+            Looking for creative content, eye-catching designs, or engaging visual storytelling? I'm always excited to collaborate on content creation, graphic design, photography, videography, and digital branding projects. Let's bring your ideas to life together.
+            </p>
+             <a class="px-10 py-4 rounded-md font-semibold bg-main text-white hover:bg-main/60 laptop:text-xl" href="mailto:lidyacantika2017@gmail.com">
+             Contact Me
+            </a>
+    <i class="fa-solid fa-envelope text-5xl text-text"></i>
+
+</section>
+    <!-- Footer -->
+    <footer class="flex flex-col">
+        <div class="footer-content p-5 flex flex-col justify-between gap-5 border-b border-dark tablet:p-8">
+            <div class="content grid grid-cols-1 gap-5 tablet:grid-cols-2 laptop:grid-cols-3">
+                <div class="logo">
+                    <a href="#home">
+                        <h2 class="font-medium text-main text-2xl laptop:text-4xl">Ldycntka.</h2>
+                    </a>
+                </div>
+                <ul class="flex flex-col gap-2 tablet:flex-row laptop:gap-4 self-end">
+                    <li><a class="links" href="#home">Home</a></li>
+                    <li><a class="links" href="#about">About</a></li>
+                    <li><a class="links" href="#service">Services</a></li>
+                    <li><a class="links" href="#skill">Skills</a></li>
+                    <li><a class="links" href="#project">Projects</a></li>
+                    <li><a class="links" href="#contact">Contact</a></li>
+                </ul>
+                <div class="sosmed flex gap-2 laptop:gap-5 laptop:self-end">
+                    <a class="sosmed-links hover:-translate-y-1" href="https://linkedin.com/in/ldycntkauw"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="sosmed-links hover:-translate-y-1" href="https://github.com/ldycntka"><i class="fa-brands fa-github"></i></a>
+                    <a class="sosmed-links hover:-translate-y-1" href="https://instagram.com/ldycntka"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="sosmed-links hover:-translate-y-1" href="https://www.tiktok.com/@ldycntka?_r=1&_t=ZS-97YBGtl6qiz"><i class="fa-brands fa-tiktok"></i></a>
+                    <a class="sosmed-links hover:-translate-y-1" href="https://youtube.com/@lidyacantika2017?si=FqCUK3_8-RqoE_Fs"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright flex justify-center py-4">
+            <p class="text-text laptop:text-xl">&copy; Copyright <span id="year"></span> By <a class="links laptop:text-xl" href="https://github.com/ldycntka">Lidya</a></p>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="./JS/script.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
